@@ -1,15 +1,15 @@
-= encoding Magic
-
+encoding Magic
+------
 revert magic_encoding
 
 just little modify from [magic_encoding](https://github.com/m-ryan/magic_encoding)
 
-== Installation
-
+Installation
+------
   gem install encoding_magic
 
-== Usage
-
+Usage
+------
 you can call the tool from the console with default parameters like so
 
   encoding_magic
@@ -19,6 +19,7 @@ this will striped every ".rb" file in the working directory (recursively) with t
   # -*- encoding : utf-8 -*-
 
 Notes :
+------
 - Don't use without git
 - Don't commit with other changes
 - existing magic comments are replaced
